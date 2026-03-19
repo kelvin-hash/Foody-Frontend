@@ -8,7 +8,7 @@ import Ribs from "./Ribs.jpg";
 import Sushi from "./Sushi.jpg";
 import Instagram from "./instagram.svg";
 import X from "./x.svg";
-import Facebook from "./Facebook.svg";
+import Facebook from "./facebook.svg";
 import logo from "./logo.png";
 import hero from "./hero.png";
 import onionrings from "./onionrings.jpg";
