@@ -1,6 +1,6 @@
 import React from 'react';
 import Home from './pages/home';
-import RestaurantDetails from './pages/restaurantdetails';
+import RestaurantDetails from './pages/restaurantDetails';
 import Restaurant from './pages/restaurants';
 import Checkout from './pages/checkout';
 import { BrowserRouter,Routes,Route} from 'react-router-dom';
