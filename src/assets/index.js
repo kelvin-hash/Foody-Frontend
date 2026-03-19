@@ -11,7 +11,7 @@ import X from "./x.svg";
 import Facebook from "./facebook.svg";
 import logo from "./logo.png";
 import hero from "./hero.png";
-import onionrings from "./onionrings.jpg";
+import onionrings from "./onionRings.jpg";
 import fries from "./fries.jpg";
 import bbq from "./bbqpizza.jpg";
 import bigmac from "./bigMac.jpg";
