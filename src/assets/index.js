@@ -6,7 +6,7 @@ import MacDonald from "./MacDonald.jpg";
 import Milkshake from "./Milkshake.jpg";
 import Ribs from "./Ribs.jpg";
 import Sushi from "./Sushi.jpg";
-import Instagram from "./Instagram.svg";
+import Instagram from "./instagram.svg";
 import X from "./x.svg";
 import Facebook from "./Facebook.svg";
 import logo from "./logo.png";
