@@ -31,8 +31,12 @@ function Restaurant(){
         <section className='bg-white py-6 shadow-sm '>
             <div className='max-w-7xl mx-auto px-6'>
                 <div className='flex gap-3 overflow-x-auto pb-2'>
+                    <button onClick={()=>setSearchTerm(null)} className='flex items-center gap-2 px-5 py-3 rounded-full bg-gray-100 hover:bg-green-400 cursor-pointer transition-all whitespace-nowrap font-medium'>
+                        <span className='text-2xl'>🍽️</span>
+                        <span className='font-semibold'>All</span>
+                    </button>
                     {foodFilters.map(food=>(
-                        <button key={food.id} className='flex items-center gap-2 px-5 py-3 rounded-full bg-gray-100 hover:bg-green-400 cursor-pointer transition-all whitespace-nowrap font-medium'>
+                        <button key={food.id} onClick={() => setSearchTerm(food.label)} className='flex items-center gap-2 px-5 py-3 rounded-full bg-gray-100 hover:bg-green-400 cursor-pointer transition-all whitespace-nowrap font-medium'>
                             <span className='text-2xl'>{food.emoji}</span>
                             <span className='font-semibold'>{food.label}</span>
                         </button>
@@ -49,7 +53,7 @@ function Restaurant(){
                         <h3 className='text-xl font-bold mb-4 text-gray-800'>Categories</h3>
                         {foodFilters.map(food=>(
                             <ul>
-                                <li key={food.id} className='py-2.5 px-4 rounded-lg cursor-pointer hover:bg-green-50 transition-colors text-gray-700 font-medium'>
+                                <li key={food.id} onClick={() => setSearchTerm(food.label)} className='py-2.5 px-4 rounded-lg cursor-pointer hover:bg-green-50 transition-colors text-gray-700 font-medium'>
                                     <span>{food.label}</span>
                                 </li>
                             </ul>

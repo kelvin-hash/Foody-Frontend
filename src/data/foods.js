@@ -1,5 +1,4 @@
  export const foodFilters = [
-  { id: 'all', emoji: '🍽️', label: 'All' },
   { id: 'pizza', emoji: '🍕', label: 'Pizza' },
   { id: 'burger', emoji: '🍔', label: 'Burgers' },
   { id: 'sushi', emoji: '🍱', label: 'Sushi' },
