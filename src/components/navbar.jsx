@@ -25,6 +25,19 @@ function Navbar() {
           </div>
           <p className=" text-red-500 font-bold text-2xl">FOODY</p>
         </div>
+        <div>
+          <nav className="hidden md:flex gap-6">
+            <button onClick={() => navigate('/')} className="text-gray-700 hover:text-orange-500 transition-colors">
+              Home
+            </button>
+            <button onClick={() => navigate('/restaurant')} className="text-gray-700 hover:text-orange-500 transition-colors">
+              Restaurants
+            </button>
+            <button onClick={() => navigate('/about')} className="text-gray-700 hover:text-orange-500 transition-colors">
+              About Us
+            </button>
+          </nav>
+        </div>
         {/* right side menu */}
         <div className="flex gap-4 items-center">
           {/* Cart Button */}
